@@ -1,0 +1,109 @@
+.forgotPassword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    height: 70px;
+}
+
+.forgotPasswordText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #585858;
+}
+
+.forgotPasswordTextDark {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #909090;
+}
+
+.recoverPassword {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #0761E2;
+    cursor: pointer;
+}
+
+.errorMessage {
+    color: #e1696f;  
+    font-size: 14px;  
+    font-family: Arial, sans-serif; 
+    padding: 5px;   
+    border-left: 3px solid #D8000C;
+    display: inline-block;  
+}
+
+@media (max-width: 1200px) {
+
+    .forgotPassword {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 24px;
+        padding-bottom: 24px;
+        gap: 16px;
+        width: 100%;
+        height: 70px;
+    }
+
+    .forgotPasswordText {
+        width: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #585858;
+    }
+
+    .forgotPasswordTextDark {
+        width: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #909090;
+    }
+
+    .recoverPassword {
+        width: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        color: #000000;
+    }    
+
+    .recoverPasswordDark {
+        width: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+    } 
+    
+    .errorMessage {
+        color: #ff787e;  
+        font-size: 14px;  
+        font-family: Arial, sans-serif; 
+        padding: 5px;   
+        margin-left: 24px;
+        border-left: 3px solid #D8000C;
+        display: inline-block;  
+    }
+}

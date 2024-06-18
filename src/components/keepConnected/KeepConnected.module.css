@@ -1,0 +1,51 @@
+.keepConnected {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 24px 0px;
+    gap: 16px;
+    width: 100%;
+    height: 44px;
+}
+
+.keepConnectedSection {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.keepConnectedText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0E0E0E;
+}
+
+.keepConnectedTextDark {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EDEDED;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #6A6A6A;
+    border-radius: 2px;
+}
+
+@media (max-width: 1200px) {
+    .keepConnected {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding-left: 24px;
+        width: 50%;
+        height: auto;
+    }
+}

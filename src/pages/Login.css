@@ -1,0 +1,11 @@
+.login {
+    display: flex;
+}
+
+#light {
+    background-color: #FFFFFF;
+}
+
+#dark {
+    background-color: #232323;
+}

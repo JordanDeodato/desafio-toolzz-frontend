@@ -1,0 +1,135 @@
+.inputSection {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 100%;
+    height: 78px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    position: relative;
+}
+
+.label {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #0E0E0E;
+}
+
+.labelDark {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #EDEDED;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    padding-left: 48px;
+    gap: 40px;
+    width: 85%;
+    height: 48px;
+    border: 1px solid #6A6A6A;
+    border-radius: 8px;
+}
+
+.input:hover {
+    border-color: #32C6CB;
+    transition: 500ms;
+}
+
+.inputDark {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    padding-left: 48px;
+    gap: 40px;
+    width: 85%;
+    height: 48px;
+    border-radius: 8px;
+    color: #EDEDED;
+    border: 1px solid #5C5C5C;
+    background-color: #232323;
+}
+
+.inputDark:hover {
+    border-color: #32C6CB;
+    transition: 500ms;
+}
+
+
+.inputContainer img {
+    position: absolute;
+    left: 16px;
+    top: 65%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+@media (max-width: 1200px) {
+    .inputSection {
+        display: flex;
+        align-items: center;
+        padding-left: 24px;
+        gap: 16px;
+        width: 100%;
+        height: 100px;
+        box-sizing: border-box;
+    }
+
+    .inputContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 100%;
+        height: 78px;
+        flex: none;
+        order: 0;
+        position: relative;
+    }
+
+    .input {
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        padding-left: 48px;
+        gap: 40px;
+        width: 78%;
+        height: 48px;
+        border: 1px solid #6A6A6A;
+        border-radius: 8px;
+    }
+
+    .inputDark {
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        padding-left: 48px;
+        gap: 40px;
+        width: 78%;
+        height: 48px;
+        border: 1px solid #5C5C5C;
+        background-color: #232323;
+        border-radius: 8px;
+    }
+}
